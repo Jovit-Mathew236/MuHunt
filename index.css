@@ -90,6 +90,7 @@ main .products .card .card-description .btns .btn {
     font-weight: 500;
     width: 50%;
     cursor: pointer;
+    background-color: transparent;
 }
 
 main .products .card .card-description .btns .highlight {
