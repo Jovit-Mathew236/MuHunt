@@ -1,0 +1,144 @@
+main {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+main .banner {
+    /* width: 300px; */
+    /* background: #fff; */
+    border-radius: 20px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .banner .banner-image {
+    height: 360px;
+    width: 100%;
+    position: relative;
+}
+
+main .banner .banner-image .upvote-count {
+    position: absolute;
+    color: #6096B4;
+    top: 0px;
+    background: #fff;
+    padding: 5px;
+    min-width: 50px;
+    border-radius: 20px 0px;
+    font-weight: 500;
+}
+
+main .banner img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    height: 100%;
+}
+
+main .banner .banner-description {
+    padding: 10px 20px;
+    border-radius: 10px 10px 20px 20px;
+    margin-top: -60px;
+    background: #ffffff;
+    position: relative;
+    z-index: 1;
+    width: 50%;
+}
+
+main .banner .banner-description .banner-text {
+    font-size: 12px;
+}
+
+main .banner .banner-description .btns {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+main .banner .banner-description .btns img {
+    height: 26px;
+    width: 20px;
+}
+
+main .banner .banner-description .btns .btn {
+    padding: 3px 20px;
+    border-radius: 30px;
+    border: 1px solid #6096B4;
+    color: #6096B4;
+    font-size: 15px;
+    font-weight: 500;
+    width: 50%;
+    cursor: pointer;
+}
+
+main .banner .banner-description .btns .highlight {
+    border: none;
+    color: white;
+    background: #6096B4;
+}
+
+main .comments {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .comments h4 {
+    color: #6096B4;
+}
+
+main .comments .comment-section .comment-input {
+    background: #fff;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+main .comments .comment-section .comment-input img {
+    height: 60px;
+}
+
+main .comments .comment-section .comment-input input {
+    height: 60px;
+    width: 90%;
+    border: none;
+}
+
+main .comments .comment-section .comment-input input::placeholder {
+    color: #6a6a6a85;
+    font-size: 16px;
+}
+
+main .comments .comment-section .comment-input input:focus {
+    outline: none;
+}
+
+main .comments .comment-section .comment-box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .comments .comment-section .comment-box .comment {
+    display: flex;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 20px;
+
+}
+
+main .comments .comment-section .comment-box .comment img {
+    height: 40px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/create.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function () {
+            $("#includeHtml").load("/includes/header.html");
+        });
+    </script>
+    <title>MuHunt | Creation</title>
+</head>
+
+<body>
+    <!--header -->
+    <div id="includeHtml"></div>
+
+    <main class="create-page">
+        <div class="image-div">
+            <p class="image"></p>
+        </div>
+        <div class="form">
+            <h1>Product Registration </h1>
+            <form action="index.html" method="post">
+                <input type="text" name="productname" placeholder="Product name" required>
+                <input type="ttext" name="description" placeholder="Description" required>
+                <input type="text" name="text" placeholder="Product link " required>
+                <div class="btns">
+                    <div class="file-upload">
+                        <input type="file" name="image" id="imageInput" accept="image/*">
+                        <label for="imageInput">
+                            <img src="/images/icons/image.png" alt="">
+                            Add Image</label>
+                    </div>
+                    <button type="submit">
+                        <img src="/images/icons/remove.png" alt="">
+                        Remove
+                    </button>
+                </div>
+                <button>
+                    Submit
+                </button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

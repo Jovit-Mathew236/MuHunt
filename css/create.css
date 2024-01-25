@@ -1,0 +1,130 @@
+.create-page {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+}
+
+.create-page .image-div {
+    position: relative;
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-page .image-div .image {
+    background: url(../images/createill.png) center/contain no-repeat;
+    height: 500px;
+    width: 100%;
+}
+
+.create-page .image-div .logo {
+    position: absolute;
+    background: url(../images/logo.png) no-repeat;
+    background-size: contain;
+    height: 130px;
+    width: 230px;
+}
+
+.create-page .form {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-page .form h1 {
+    color: #6096B4;
+    font-weight: 500;
+}
+
+.create-page .form form {
+    width: 60%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-page .form form .btns {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.create-page .form form .file-upload {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    color: #6096B4;
+    background-color: #D6DBD8;
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.create-page .form form .file-upload:nth-child(1) {
+    flex: 7;
+}
+
+.create-page .form form .file-upload:nth-child(2) {
+    flex: 3;
+}
+
+.create-page .form form .file-upload input[type=file] {
+    position: absolute;
+    /* font-size: 100px; */
+    right: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.create-page .form form .file-upload label {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    align-items: center;
+}
+
+.create-page .form form .file-upload label img,.create-page .form form img {
+    height: 20px;
+}
+
+.create-page .form form .file-upload:hover {
+    border-color: #2980b9;
+    color: #2980b9;
+}
+
+.create-page .form form input {
+    border-width: 0px 0px 1px 0px;
+    margin-bottom: 32px;
+    background-color: #EEE9DA;
+    border-color: rgba(92, 92, 92, 0.90);
+}
+
+.create-page .form form input:focus {
+    outline: none;
+}
+
+.create-page .form form input::placeholder {
+    color: #6a6a6a85;
+    font-size: 16px;
+}
+
+.create-page .form button {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #6096B4;
+    background: #D6DBD8;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    justify-content: center;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function () {
+            $("#includeHtml").load("/includes/header.html");
+        });
+    </script>
+    <title>MuHunt</title>
+</head>
+
+<body>
+    <!--header -->
+    <div id="includeHtml"></div>
+
+    <!-- main section-->
+    <main>
+        <div class="banner"><a href="/pages/signup.html"><span>Sing in</span> </a> for create your own product!</div>
+
+        <div class="products">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="/images/signupbg.png" alt="">
+                    <p class="upvote-count">&#11205; 1000</p>
+                </div>
+                <div class="card-description">
+                    <div class="card-text">
+                        <h2>Product name</h2>
+                        <p>This is small description of the product Lorem Ipsum es simplemente el texto de relleno de
+                            las
+                            imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las
+                            industr...
+                        </p>
+                    </div>
+                    <div class="btns">
+                        <button class="btn highlight">Try</button>
+                        <button class="btn">Upvote</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="/images/loginbg.png" alt="">
+                    <p class="upvote-count">&#11205; 500</p>
+                </div>
+                <div class="card-description">
+                    <div class="card-text">
+                        <h2>Product name</h2>
+                        <p>This is small description of the product Lorem Ipsum es simplemente el texto de relleno de
+                            las
+                            imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las
+                            industr...
+                        </p>
+                    </div>
+                    <div class="btns">
+                        <button class="btn highlight">Try</button>
+                        <button class="btn">Upvote</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>
