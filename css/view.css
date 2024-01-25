@@ -55,6 +55,10 @@ main .banner .banner-description .banner-text {
     font-size: 12px;
 }
 
+main .products .banner .banner-description .banner-text p {
+    color: #787878;
+}
+
 main .banner .banner-description .btns {
     width: 100%;
     display: flex;

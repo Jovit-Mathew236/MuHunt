@@ -57,6 +57,10 @@ main .profile .profile-details .chip span {
     color: white;
 }
 
+main .my-products h2 {
+    color: #6096B4;
+}
+
 main .products {
     display: flex;
     flex-wrap: wrap;
@@ -106,6 +110,10 @@ main .products .card .card-description {
 
 main .products .card .card-description .card-text {
     font-size: 12px;
+}
+
+main .products .card .card-description .card-text p {
+    color: #787878;
 }
 
 main .products .card .card-description .btns {

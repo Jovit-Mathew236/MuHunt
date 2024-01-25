@@ -74,6 +74,10 @@ main .products .card .card-description .card-text {
     font-size: 12px;
 }
 
+main .products .card .card-description .card-text p {
+    color: #787878;
+}
+
 main .products .card .card-description .btns {
     width: 100%;
     display: flex;
